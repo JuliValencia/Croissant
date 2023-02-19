@@ -1,3 +1,33 @@
+body {
+  background: #c37960;
+  color: #f0d8a7;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 h1 {
+  text-align: center;
+  font-size: 48px;
+  padding: 20px 20px;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+a {
+  color: brown;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
 }
